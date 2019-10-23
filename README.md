@@ -1,4 +1,4 @@
-# A Simple Shopping List Application using MERN stack
+# A Simple Shopping List Application using MERN stack (MONGODB, EXPRESS, REACT & NODE.JS)
 
 # The Technologies Used Are The Following:
 
