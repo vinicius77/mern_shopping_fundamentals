@@ -30,7 +30,7 @@
 * Access the application at: http://localhost:5000
 
 
-## Day One
+## DAY ONE - EXPRESS API & MONGODB
 * Created the folder config to save our projects keys
 * Created An account on cloud.mongodb.com to interact with the MongoDB
 * Created a cluster and user on MongoDB Atlas website
@@ -49,7 +49,7 @@
 
 mongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true }); 
 
-## Day Two
+## DAY TWO - CLIENT SETUP & REACTSTRAP
 * Implemented the PUT method and tested it using Postman
 * Create The Client-Side using React
 * Created the script to run client, both client and the server and also to install client dependencies
@@ -75,3 +75,13 @@ Apparently it worked after insert the navbar component into App.js in order to a
 # CLI (Day Two)
 * create-react-app . (inside of the client folder) 
 * npm i bootstrap reactstrap uuid (inside of the client folder)
+
+## DAY THREE - SHOPPINGLIST COMPONENTS & TRANSITIONS
+
+* Create the ShoppingList Component
+* Used Reactstrap Components
+* Used Reactstrap Transition Group Components
+* Used uuid to generate random id while using static data
+* Learned what is a state in React
+* Learned to use spread operator and set the state to add and delete data
+* Learned to use React Dev Tools' Firefox Extension
