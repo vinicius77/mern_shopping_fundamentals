@@ -85,3 +85,8 @@ Apparently it worked after insert the navbar component into App.js in order to a
 * Learned what is a state in React
 * Learned to use spread operator and set the state to add and delete data
 * Learned to use React Dev Tools' Firefox Extension
+
+## DAY FOUR
+* REDUX CRASH COURSE - To better understanding how to use Redux in the next step of the project.
+* Supplementary hands-on video-tutorial to create a very simple React App from scratch that uses Redux.
+I have learned so far what are and how to use: Dispatches, Store, Actions. How to use Redux Dev Tools.
