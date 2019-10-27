@@ -89,4 +89,5 @@ Apparently it worked after insert the navbar component into App.js in order to a
 ## DAY FOUR
 * REDUX CRASH COURSE - To better understanding how to use Redux in the next step of the project.
 * Supplementary hands-on video-tutorial to create a very simple React App from scratch that uses Redux.
-I have learned so far what are and how to use: Dispatches, Store, Actions. How to use Redux Dev Tools.
+(You can find this project in my Github repository named learn-redux)
+I have learned so far what are and how to use: Dispatches, Store, Actions, Reducers and Provider. How to use Redux Dev Tools.
