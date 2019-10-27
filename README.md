@@ -91,3 +91,21 @@ Apparently it worked after insert the navbar component into App.js in order to a
 * Supplementary hands-on video-tutorial to create a very simple React App from scratch that uses Redux.
 (You can find this project in my Github repository named learn-redux)
 I have learned so far what are and how to use: Dispatches, Store, Actions, Reducers and Provider. How to use Redux Dev Tools.
+
+## DAY FIVE
+* Implementing the Store, Reducers, Actions and Dispatch into Redux and connect them to React using mapStateToProps (Allows us to take the item state and map it into a component property)
+
+### Store
+The Store is the object that brings actions and reducers together. The store has the following responsibilities:
+
+* Holds application state;
+* Allows access to state via getState();
+* Allows state to be updated via dispatch(action);
+* Registers listeners via subscribe(listener);
+* Handles unregistering of listeners via the function returned by subscribe(listener).
+
+### Reducers
+Reducers specify how the application's state changes in response to actions sent to the store. Remember that actions only describe what happened, but don't describe how the application's state changes.
+
+### Actions 
+Actions are payloads of information that send data from your application to your store. They are the only source of information for the store. You send them to the store using store.dispatch().
