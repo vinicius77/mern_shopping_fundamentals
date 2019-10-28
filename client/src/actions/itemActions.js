@@ -19,3 +19,10 @@ export const addItem = item => {
         payload: item
     };
 };
+
+export const UpdateItem = name => {
+    return {
+        type: UPDATE_ITEM,
+        payload: name
+    };
+};

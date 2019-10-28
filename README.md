@@ -114,6 +114,11 @@ Actions are payloads of information that send data from your application to your
 ## DAY SIX
 
 ### Issues
-MongoTimeoutError: Server selection timed out after 30000 ms
+1 - MongoTimeoutError: Server selection timed out after 30000 ms
+SOLUTION: curl ifconfig.me on CLI and add the IP to Atlas(MongoDB Cloud) IP Whitelist
+2 - sh: 1: nodemon: not found
+SOLUTION: sudo npm install nodemon -g --save
+### PROGRESS
+* Implement the DeleteItem feature for the Shopping List 
+* Implement the AddItem feature for the Shopping List 
 
-* Create the DeleteItem feature for the Shopping List 
