@@ -121,4 +121,6 @@ SOLUTION: sudo npm install nodemon -g --save
 ### PROGRESS
 * Implement the DeleteItem feature for the Shopping List 
 * Implement the AddItem feature for the Shopping List 
+* Install AXIOS (HTTP Client)
+npm i axios
 
