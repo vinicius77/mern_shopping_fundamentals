@@ -94,6 +94,7 @@ I have learned so far what are and how to use: Dispatches, Store, Actions, Reduc
 
 ## DAY FIVE
 * Implementing the Store, Reducers, Actions and Dispatch into Redux and connect them to React using mapStateToProps (Allows us to take the item state and map it into a component property)
+* More resources: Harvard CS50 Redux Video
 
 ### Store
 The Store is the object that brings actions and reducers together. The store has the following responsibilities:
@@ -109,3 +110,6 @@ Reducers specify how the application's state changes in response to actions sent
 
 ### Actions 
 Actions are payloads of information that send data from your application to your store. They are the only source of information for the store. You send them to the store using store.dispatch().
+
+## DAY SIX
+* 
