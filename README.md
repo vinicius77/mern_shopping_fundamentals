@@ -112,4 +112,8 @@ Reducers specify how the application's state changes in response to actions sent
 Actions are payloads of information that send data from your application to your store. They are the only source of information for the store. You send them to the store using store.dispatch().
 
 ## DAY SIX
-* 
+
+### Issues
+MongoTimeoutError: Server selection timed out after 30000 ms
+
+* Create the DeleteItem feature for the Shopping List 
