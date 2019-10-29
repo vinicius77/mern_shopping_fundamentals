@@ -124,3 +124,11 @@ SOLUTION: sudo npm install nodemon -g --save
 * Install AXIOS (HTTP Client)
 npm i axios
 
+## DAY SIX
+### DEPLOYMENT (HEROKU)
+* Preparing the App to deploy
+* Set the server.js file to run scripts on production(heroku)
+#### PS.: I had already the heroku CLI installed
+* $ heroku login
+* $ heroku create
+* $ heroku git:remote -a the-name-of-your-heroku-remote-repository
