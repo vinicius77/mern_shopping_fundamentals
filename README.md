@@ -132,3 +132,8 @@ npm i axios
 * $ heroku login
 * $ heroku create
 * $ heroku git:remote -a the-name-of-your-heroku-remote-repository
+* Add access from anywhere on MongoDB Cloud to serve its data to heroku app.
+* Stop the application on heroku: $ heroku ps:scale web=0
+* Restart the application on heroku: $ heroku ps:scale web=1
+* Everything worked like charm! :)
+* Killing the application on Heroku for security reasons and removing the IP Whitelist access for Anywhere on Atlas MongoDB!
