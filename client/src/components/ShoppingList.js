@@ -53,7 +53,7 @@ class ShoppingList extends Component {
 }
 
 ShoppingList.propTypes = {
-    getIems: PropTypes.func.isRequired,
+    getItems: PropTypes.func.isRequired,
     item: PropTypes.object.isRequired
 }
 
