@@ -147,7 +147,7 @@ npm i axios
 * WARNING: collection.ensureIndex is deprecated. Use createIndexes instead.
 SOLUTION: On server.js add useCreateIndex: true as a parameter in the mongoose connection
 * Removed body-parser dependency since Express.js has implement it (npm remove body-parser) 
-* Install bcryptjs to hash the passwords (npm i bcryptjs)
+* Installed bcryptjs to hash the passwords (npm i bcryptjs)
 * Created users collection on MongoDB and hashed its password
 * Implemented tokens using JWT (http://jwt.io) (npm i jsonwebtoken)
 * Security reasons to don't expose some sensible data (eg. repositories) (npm i config)
@@ -156,4 +156,8 @@ SOLUTION: On server.js add useCreateIndex: true as a parameter in the mongoose c
 * Now when send a get request with the token in its header (Postman), we receive as a response the user data (without the password field)
 * React / Redux Authentication Supplementary Video
 
-### PART 2 (REACT REDUX AUTHENTICATION STATE)
+### PART 2 (REACT REDUX AUTHENTICATION STATE)'
+* Corrected a warning in the store.js file.
+* Created the action's type
+* Created the reducers
+* Created the actions

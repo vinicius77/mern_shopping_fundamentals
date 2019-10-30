@@ -4,7 +4,7 @@ import { USER_LOADED, USER_LOADING, AUTH_ERROR, LOGIN_SUCCESS, LOGIN_FAIL,
 const initialState = {
     token: localStorage.getItem("token"),
     isAuthenticated: null,
-    isLoading: false,
+    isLoading: null,
     user: null
 };
 
@@ -15,7 +15,7 @@ export default function(state= initialState, action){
                 ...state,
                 isLoading: true
             };
-        case USER_LOADING:
+        case USER_LOADED:
             return {
                 ...state,
                 isAuthenticated: true,
@@ -34,6 +34,7 @@ export default function(state= initialState, action){
         case LOGIN_FAIL:
         case LOGOUT_SUCCESS:
         case REGISTER_FAIL:
+            localStorage.removeItem("token");
             return {
                 ...state,
                 isAuthenticated: false,
