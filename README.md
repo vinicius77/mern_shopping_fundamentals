@@ -159,5 +159,6 @@ SOLUTION: On server.js add useCreateIndex: true as a parameter in the mongoose c
 ### PART 2 (REACT REDUX AUTHENTICATION STATE)'
 * Corrected a warning in the store.js file.
 * Created the action's type
-* Created the reducers
-* Created the actions
+* Created the auth and error reducers
+* Created the auth and error actions
+* Refactored some code

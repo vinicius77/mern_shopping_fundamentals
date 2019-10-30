@@ -9,6 +9,22 @@ export const loadUser = () => (dispatch, getState) => {
     // Dispatch the User loading ()changes from false to true
     dispatch({ type: USER_LOADING });
 
+    // Fetching the user
+    axios.get("/api/auth/user", tokenConfig(getState))
+        .then(res => dispatch({
+            type: USER_LOADED,
+            payload: res.data
+        }))
+        .catch(error => {
+            dispatch(returnErrors(error.response.data, error.response.status));
+            dispatch({
+                type: AUTH_ERROR
+            });
+        });
+};
+
+// Setup config/headers and token
+export const tokenConfig = getState => {
     // Get token form the local store
     const token = getState().auth.token;
 
@@ -22,18 +38,7 @@ export const loadUser = () => (dispatch, getState) => {
     // If token is true, add to the headers
     if(token) {
         config.headers["x-auth-token"] = token;
-    }
+    };
 
-    // Fetching the user
-    axios.get("/api/auth/user")
-        .then(res => dispatch({
-            type: USER_LOADED,
-            payload: res.data
-        }))
-        .catch(error => {
-            dispatch(returnErrors(error.response.data, error.response.status));
-            dispatch({
-                type: AUTH_ERROR
-            });
-        });
+    return config;
 };
