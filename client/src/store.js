@@ -6,6 +6,11 @@ const initialState = { };
 
 const middleware = [thunk];
 
+/* In Case It Doesnt render in browsers without the Redux Dev Tools
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const store = createStore(rootReducer, initialState, composeEnhancers(applyMiddleware(...middleware))); 
+*/
+
 const store = createStore(
     rootReducer,
     initialState,

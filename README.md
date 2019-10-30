@@ -1,4 +1,4 @@
-# A Simple Shopping List Application using MERN stack (MONGODB, EXPRESS, REACT & NODE.JS)
+# A Simple Shopping List Application using MERN stack (MONGODB, EXPRESS, REACT, REDUX & NODE.JS)
 
 # Create from Scratch
 * npm init
@@ -137,3 +137,19 @@ npm i axios
 * Restart the application on heroku: $ heroku ps:scale web=1
 * Everything worked like charm! :)
 * Killing the application on Heroku for security reasons and removing the IP Whitelist access for Anywhere on Atlas MongoDB!
+* Supplementary JWT (JSON Web Token) resources to better understanding authentication
+
+
+## DAY SEVEN (BACKEND JWT AUTHENTICATION)
+* Created a User Model
+* Created the route to be able to register a user (server.js)
+* WARNING: collection.ensureIndex is deprecated. Use createIndexes instead.
+SOLUTION: On serve.js add useCreateIndex: true as a parameter in the mongoose connection
+* Removed body-parser dependency since Express.js has implement it (npm remove body-parser) 
+* Install bcryptjs to hash the passwords (npm i bcryptjs)
+* Created users collection on MongoDB and hashed its password
+* Implemented tokens using JWT (http://jwt.io) (npm i jsonwebtoken)
+* Security reasons to don't expose some sensible data (eg. repositories) (npm i config)
+* Created private routes that can only be acessed usign the token created by JWT
+* Created a route inside of the auth.js to get the user's data using the token (stateless auth)
+* Now when send a get request with the token in its header (Postman), we receive as a response the user data (without the password field)
