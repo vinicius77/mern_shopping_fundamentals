@@ -27,8 +27,8 @@
 * Download this repository
 * Install the npm dependencies: npm install
 * Run the web server: npm run server
-* Access the application at: http://localhost:5000
-
+* Access the application's JSON data at: http://localhost:5000/api/items
+* Access the application at: http://localhost:3000
 
 ## DAY ONE - EXPRESS API & MONGODB
 * Created the folder config to save our projects keys
