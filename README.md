@@ -156,9 +156,11 @@ SOLUTION: On server.js add useCreateIndex: true as a parameter in the mongoose c
 * Now when send a get request with the token in its header (Postman), we receive as a response the user data (without the password field)
 * React / Redux Authentication Supplementary Video
 
-### PART 2 (REACT REDUX AUTHENTICATION STATE)'
+### PART 2 (REACT REDUX AUTHENTICATION STATE)
 * Corrected a warning in the store.js file.
 * Created the action's type
 * Created the auth and error reducers
 * Created the auth and error actions
 * Refactored some code
+
+### DAY 12 - (REACT REGISTRATION)
