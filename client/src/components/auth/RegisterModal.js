@@ -125,7 +125,7 @@ class RegisterModal extends Component {
                                         color="dark"
                                         style={{marginTop: "2rem"}}
                                         block
-                                        >Add Item
+                                        >Register
                                     </Button>
                                 </FormGroup>
                             </Form>
