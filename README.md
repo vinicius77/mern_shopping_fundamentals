@@ -164,3 +164,5 @@ SOLUTION: On server.js add useCreateIndex: true as a parameter in the mongoose c
 * Refactored some code
 
 ### DAY 12 - (REACT REGISTRATION)
+* Added in the authReducer file the token to LOGIN_SUCCESS and REGISTER_SUCCESS cases. 
+* Create a model and action to register a new user 
