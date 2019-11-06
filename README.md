@@ -187,11 +187,12 @@ SOLUTION: sudo npm install nodemon -g --save
 ### DAY 12 - (REACT REGISTRATION)
 
 - Added in the authReducer file the token to LOGIN_SUCCESS and REGISTER_SUCCESS cases.
-- Create a model and action to register a new user
+- Created a model and action to register a new user
 - Implemented messages for the different kinds of errors in the register feature
-- Registering a new user: Should hit the end point, get added to the MongoDB, get the token back, add it to state and login.
+- Registering a new user: Should hit the end point, get added to the MongoDB, get the token back, add it to state in order to login.
 - Successful tested checking for an already existing user and to create a new one on MongoDB/Atlas
 
 ### DAY 13 - (REACT LOGIN AND ACCESS)
 
-- Created login modal
+- Created both login modal and actions
+- Added Toggle when user is or not logged in. If logged, a welcome message will appear in the navbar
