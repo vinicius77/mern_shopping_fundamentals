@@ -196,3 +196,4 @@ SOLUTION: sudo npm install nodemon -g --save
 
 - Created both login modal and actions
 - Added Toggle when user is or not logged in. If logged, a welcome message will appear in the navbar
+- Attached the token in the request headers to allow delete, add an item when looged in
