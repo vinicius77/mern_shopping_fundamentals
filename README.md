@@ -197,3 +197,8 @@ SOLUTION: sudo npm install nodemon -g --save
 - Created both login modal and actions
 - Added Toggle when user is or not logged in. If logged, a welcome message will appear in the navbar
 - Attached the token in the request headers to allow delete, add an item when looged in
+- Added the logic to allow or not create, delete an item
+
+## Remember to:
+
+- Allow access to MongoDB Atlas from the heroku IP to run the application heroku ps:scale web=1.
