@@ -16,7 +16,6 @@
   "dependencies": {
     "bcryptjs": "*",
     "concurrently": "*",
-    "config": "*",
     "dotenv": "^10.0.0",
     "express": "*",
     "jsonwebtoken": "*",
